@@ -18,7 +18,7 @@ void draw(){
         String redName = String.format("%03d", r);//pad each color val to 3 digits, convert to String
         String greenName = String.format("%03d", g);
         String blueName = String.format("%03d", b);
-        String fileName = "pngs/"+redName+greenName+blueName+".png";//build filename from strings
+        String fileName = "pngs/"+redName+"/"+greenName+"/"+redName+greenName+blueName+".png";//build filename from strings
         println("fileName = "+fileName);//save as png
         save(fileName);
       }
